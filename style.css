@@ -1,0 +1,56 @@
+section{
+    margin: 30px;
+    background: linear-gradient(to bottom, green, rgb(0, 200, 255));
+    
+    padding: 100px;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    z-index: 0;
+}
+hr{
+    border: 5px dashed lightgrey;
+    width: 60%;
+}
+body{
+    text-align: center;
+    color: yellow;
+}
+h3{
+    font-size: 1.5em;
+}
+#tbl{
+    width:40%;
+    border: 5px ridge yellow;
+}
+p{
+    max-width: 60%;
+    margin: auto;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 1.3em;
+}
+#menu{
+    position: fixed;
+    top: 20px;
+    left: 25px;
+    color: black;
+    font-family: fantasy;
+    list-style: none;
+    font-weight: 600;
+    z-index: 1;
+}
+.links{
+    float: left;
+    margin: 5px;
+}
+.links:hover{
+    border: 2px solid rgb(0, 200, 255);
+    color: rgb(0, 200, 255);
+    text-decoration: underline;
+    padding: 2px;
+    background: green;
+}
+html{
+    scroll-behavior: smooth;
+}
